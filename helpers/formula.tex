@@ -1,0 +1,15 @@
+\ifdefined\formula
+\else
+  \def\formula{\text{failure}}
+\fi
+\documentclass[border=2pt]{standalone}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{varwidth}
+\begin{document}
+\begin{varwidth}{\linewidth}
+  \[ \formula \]
+\end{varwidth}
+\end{document}

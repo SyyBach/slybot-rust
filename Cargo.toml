@@ -1,0 +1,8 @@
+[package]
+name = "slybot"
+version = "0.1.0"
+authors = ["SlyBach"]
+
+[dependencies]
+discord = "0.8.0"
+rusqlite = "0.13.0"
